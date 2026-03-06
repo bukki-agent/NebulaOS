@@ -26,7 +26,8 @@ NebulaOS/
 │ └── widget-templates.json
 ├── agents/
 │ ├── agentA.ts
-│ └── agentB.ts
+│ ├── agentB.ts
+│ └── agentC.ts
 ├── libs/
 │ ├── ai.ts
 │ └── storage.ts
