@@ -1,0 +1,44 @@
+NebulaOS/
+├── apps/
+│ └── dashboard/
+│ ├── pages/
+│ │ ├── _app.tsx
+│ │ └── index.tsx
+│ ├── components/
+│ │ ├── Header.tsx
+│ │ ├── Sidebar.tsx
+│ │ ├── Widget.tsx
+│ │ ├── AgentMatrix.tsx
+│ │ ├── BrainPanel.tsx
+│ │ └── KPIDeck.tsx
+│ ├── styles/
+│ │ ├── globals.css
+│ │ └── dashboard.css
+│ ├── public/
+│ │ └── logo.svg
+│ └── vercel.json
+├── brain/
+│ ├── assets/
+│ │ ├── images/
+│ │ ├── logos/
+│ │ └── docs/
+│ └── templates/
+│ └── widget-templates.json
+├── agents/
+│ ├── agentA.ts
+│ └── agentB.ts
+├── libs/
+│ ├── ai.ts
+│ └── storage.ts
+├── onboarding/
+│ ├── onboarding-form.json
+│ └── onboarding-flow.md
+├── public/
+│ └── branding-guide.html
+├── .env.example
+├── README.md
+├── package.json
+├── tsconfig.json
+├── next.config.js
+├── vercel.json
+└── tailwind.config.js
