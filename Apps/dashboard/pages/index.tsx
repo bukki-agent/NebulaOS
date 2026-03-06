@@ -14,22 +14,7 @@ const PROJECTS = [
 const Home: React.FC = () => {
 const [active, setActive] = useState('reactive');
 return (
-<div className="nebula-root">
-<Header onNewProject={()=>{}} />
-<div className="layout-body">
-<Sidebar active={active} onTab={setActive} />
-<main className="content">
-<h1>NebulaOS - Kommandozentrale</h1>
-<div className="grid">
-<BrainPanel project={active} />
-<AgentMatrix project={active} />
-<KPIDeck project={active} />
-</div>
-</main>
-</div>
-</div>
-);
-};
 
+<div className="nebula-root"> <Header onNewProject={()=>{}} /> <div className="layout-body"> <Sidebar active={active} onTab={setActive} /> <main className="content"> <h1>NebulaOS - Kommandozentrale</h1> <div className="grid"> <BrainPanel project={active} /> <AgentMatrix project={active} /> <KPIDeck project={active} /> </div> </main> </div> </div> ); };
 export default Home;
 
