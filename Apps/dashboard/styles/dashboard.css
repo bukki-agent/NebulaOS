@@ -13,3 +13,21 @@ body,html,#__next{height:100%}
 .grid{display:grid; grid-template-columns: repeat(3, 1fr); gap:20px}
 .widget{ background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px}
 .drop{border:2px dashed #cbd5e1; padding:40px; text-align:center; border-radius:12px; color:#64748b;}
+
+M) Apps/dashboard/pages/index.tsx already provided above
+N) Onboarding form (JSON schema)
+{
+"title": "New Project Onboarding",
+"type": "object",
+"properties": {
+"name": {"type": "string", "title": "Projektname"},
+"description": {"type": "string", "title": "Kurzbeschreibung"},
+"icp": {"type": "string", "title": "Zielgruppe"},
+"branding": {"type": "object", "title": "Branding", "properties": {
+"logo": {"type": "string", "title": "Logo-URL"},
+"palette": {"type": "string", "title": "Palette"}
+}},
+"style": {"type": "string", "title": "Stil-Richtung"},
+"kpis": {"type": "string", "title": "KPI-Ziele"}
+}
+}
