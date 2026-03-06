@@ -4,6 +4,6 @@
 { "src": "apps/dashboard/pages/**/.{ts,tsx,js,jsx}", "use": "@vercel/next" }
 ],
 "routes": [
-{ "src": "/(.)", "dest": "/apps/dashboard/pages/index.tsx" }
+{ "src": "/(.)", "dest": "/apps/dashboard/pages/index.tsx" } // ACHTUNG: Das ist problematisch; besser entfernen und Next.js machen lassen
 ]
 }
